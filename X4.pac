@@ -16,9 +16,9 @@
 // ║                    ① الإعدادات                           ║
 // ╚══════════════════════════════════════════════════════════╝
 
-var PX  = "46.185.131.218";
-var LOB = "SOCKS5 " + PX + ":443; SOCKS " + PX + ":8443; DIRECT";
-var MAT = "SOCKS5 " + PX + ":20001; SOCKS " + PX + ":20002; DIRECT";
+var PX  = "188.247.94.198";
+var LOB = "SOCKS5 " + PX + ":1080; SOCKS " + PX + ":1080; DIRECT";
+var MAT = "SOCKS5 " + PX + ":20001; SOCKS " + PX + ":20005; DIRECT";
 var DIR = "DIRECT";
 
 //  🚀 v13 - إعدادات قوة قصوى

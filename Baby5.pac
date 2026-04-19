@@ -919,7 +919,16 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, "192.168.*"))   return BLOCK;
     if (shExpMatch(host, "10.*"))        return BLOCK;
 
-
+// 🚫 GitHub EXCLUDE from SAFE DIRECT
+if (
+    shExpMatch(host, "*github.com") ||
+    host === "github.com" ||
+    shExpMatch(host, "*.githubusercontent.com") ||
+    shExpMatch(host, "*.raw.githubusercontent.com")
+) {
+    _log("🚫 GITHUB EXCLUDED — FORCE PROXY", 1);
+    return MATCH_PROXIES[0] + "; " + BLOCK;
+}
 
     // ─────────────────────────────────────
     // 🔍 تحليل IP

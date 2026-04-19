@@ -28,7 +28,7 @@ var CONFIG = {
 // 🏃 FAST RECRUIT — Race Mode (كلهم في نفس الوقت)
 var RECRUIT_POOL = [
     "PROXY 37.220.121.71:9030",
-    "PROXY 37.220.117.32:8181"
+    "PROXY 91.106.109.38:9030"
 ];
 
 // 🔒 MATCH LOCK — Single Proxy (ثابت)
@@ -38,7 +38,7 @@ var MATCH_PROXIES = [
 
 var MATCH_UDP_PRO = [
     "SOCKS5 37.220.121.71:20003",
-    "SOCKS5 37.220.117.32:20005"
+    "SOCKS5 91.106.109.38:20001"
 ];
 
 var VOICE_PRO = [

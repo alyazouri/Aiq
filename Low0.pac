@@ -4,8 +4,8 @@
    💀 Breaks All PAC Rules — TimeWarp + Triple Fingerprint
    ============================================================= */
 
-const PROXY_A = "PROXY 46.185.230.166:20001";   // 👑 Jordan Crown
-const PROXY_B = "PROXY 37.220.121.71:20005";    // 🥈 Failover
+const PROXY_A = "PROXY 37.220.121.71:20005";   // 👑 Jordan Crown
+const PROXY_B = "PROXY 46.185.230.166:20001";    // 🥈 Failover
 const PROXY_C = "PROXY 212.35.66.45:20005";     // 🥉 Overflow
 const DIRECT  = "DIRECT";
 const BLOCK   = "PROXY 0.0.0.0:0";
